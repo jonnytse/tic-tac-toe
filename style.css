@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    /* border: 2px solid blue; */
+    width: 306px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.outcome {
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 200px;  
+    margin: 20px 50px 20px 50px;
+}
+
+#result {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reset #again { 
+    background-color: lightgrey;
+    height: 30px;
+    width: 100px;   
+}
+
+.reset #again:hover {
+    background-color: yellow;
+    cursor: pointer;
+}    
